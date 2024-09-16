@@ -24,4 +24,4 @@ Tech Stack used:
 
 
   Why Golang and Redis?
-  - 
+  - Go is known for its efficiency and speed, making it well-suited for building high-performance applications. Redis, being an in-memory data store, provides extremely fast access to data. Together, Go and Redis can deliver blazing fast performance for applications that require low latency.
