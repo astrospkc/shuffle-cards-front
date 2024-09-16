@@ -34,22 +34,8 @@ const GamePage = () => {
 
         console.log("count: ", countHandleClick)
 
-
-        // const shuffleDeck = [...deck]
-        // console.log(Math.floor(Math.random() * 6), shuffleDeck.length)
-        // let i = 0;
-        // for (i = shuffleDeck.length - 1; i >= 0; i--) {
-        //     const j = Math.floor(Math.random() * (i + 1))
-        //     const temp = shuffleDeck[i]
-        //     shuffleDeck[i] = shuffleDeck[j]
-        //     shuffleDeck[j] = temp
-
-        // }
-
         dispatch(shuffleCards())
 
-        // setDeck(shuffleDeck)
-        // console.log("shuffle deck: ", shuffleDeck)
 
 
     }
